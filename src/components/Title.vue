@@ -12,8 +12,8 @@ defineProps({
     <h1 class="green">{{ msg }}</h1>
     <h3>
       Resumo feito pela dupla:
-      <a target="_blank" href="https://vitejs.dev/">Igor Duarte</a> +
-      <a target="_blank" href="https://vuejs.org/">Gabriel Guedes</a>.
+      <a target="_blank" href="https://github.com/igoohd">Igor Duarte</a> +
+      <a target="_blank" href="https://github.com/gabrielgdc">Gabriel Guedes</a>.
     </h3>
   </div>
 </template>
