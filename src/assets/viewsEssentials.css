@@ -1,0 +1,48 @@
+/* List */
+ul {
+    counter-reset: index;  
+    padding: 0;
+    max-width: 300px;
+  }
+  
+/* List element */
+li {
+counter-increment: index; 
+display: flex;
+align-items: center;
+padding: 12px 0;
+box-sizing: border-box;
+}
+
+
+/* Element counter */
+li::before {
+content: counters(index, ".", decimal-leading-zero);
+font-size: 1.5rem;
+text-align: right;
+font-weight: bold;
+min-width: 50px;
+padding-right: 12px;
+font-variant-numeric: tabular-nums;
+align-self: flex-start;
+background-image: linear-gradient(to bottom, hsla(160, 100%, 37%, 1), hsla(160, 100%, 37%, 0.2));
+background-attachment: fixed;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Element separation */
+li + li {
+border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.viewLayout {
+    padding-top: 5rem;
+    max-height: 50vh;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
