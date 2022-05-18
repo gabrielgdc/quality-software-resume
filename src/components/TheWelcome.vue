@@ -9,7 +9,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
 <template>
   <div>
-    <RouterLink to="/introduction">
+    <RouterLink to="/introduction" class="welcome-wrapper">
       <WelcomeItem>
         <template #icon>
           <DocumentationIcon />
@@ -20,7 +20,7 @@ import SupportIcon from './icons/IconSupport.vue'
       </WelcomeItem>
     </RouterLink>
 
-    <RouterLink to="/testing">
+    <RouterLink to="/tests" class="welcome-wrapper">
       <WelcomeItem>
         <template #icon>
           <ToolingIcon />
@@ -31,7 +31,7 @@ import SupportIcon from './icons/IconSupport.vue'
       </WelcomeItem>
     </RouterLink>
 
-    <RouterLink to="/git">
+    <RouterLink to="/git" class="welcome-wrapper">
       <WelcomeItem>
         <template #icon>
           <EcosystemIcon />
@@ -42,7 +42,7 @@ import SupportIcon from './icons/IconSupport.vue'
       </WelcomeItem>
     </RouterLink>
 
-    <RouterLink to="/cmmi">
+    <RouterLink to="/cmmi" class="welcome-wrapper">
       <WelcomeItem>
         <template #icon>
           <CommunityIcon />
@@ -54,3 +54,11 @@ import SupportIcon from './icons/IconSupport.vue'
     </RouterLink>
   </div>
 </template>
+
+<style>
+.welcome-wrapper:hover {
+  color: green;
+  border: 1px solid green;
+  background-color: green;
+}
+</style>

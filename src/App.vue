@@ -78,7 +78,7 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   border-left: 1px solid var(--color-border);
 }
 
@@ -95,13 +95,12 @@ nav a:first-of-type {
   #app {
     display: flex;
     padding: 0 2rem;
-    max-height: 30vw;
   }
 
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    padding-right: 2rem;
   }
 
   header .wrapper {
