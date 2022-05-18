@@ -36,7 +36,7 @@ import SupportIcon from './icons/IconSupport.vue'
         <template #icon>
           <EcosystemIcon />
         </template>
-        <template #heading>Gestão da configuração</template>
+        <template #heading>GIT</template>
 
         Neste tópico abordamos o conteúdo de GIT
       </WelcomeItem>
