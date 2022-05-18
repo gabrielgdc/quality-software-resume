@@ -1,29 +1,32 @@
-# quality_software_resume_front
+# Resumo sobre Qualidade de Software
 
-This template should help get you started developing with Vue 3 in Vite.
+Esse projeto tem como objetivo resumir os principais tópicos da matéria de Qualidade de Software ministrada pelo professor Alexandre Sauer Paes Leme no curso de Sistemas de Informação da faculdade Cotemig.
 
-## Recommended IDE Setup
+## IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-## Customize configuration
+## Configuração customizada
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Instalação do projeto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilação e Hot-reload
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilação e Minificação para produção
 
 ```sh
 npm run build
 ```
+
+### Link para projeto publicado
+https://vuejs-quality-software-resume.netlify.app/
