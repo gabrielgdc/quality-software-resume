@@ -30,7 +30,7 @@ import Title from '@/components/Title.vue'
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-
+  overflow: hidden;
   font-weight: normal;
 }
 
@@ -59,7 +59,7 @@ a,
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   margin-top: 2rem;
 }
@@ -89,9 +89,9 @@ nav a:first-of-type {
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 0 2rem;
+    max-height: 30vw;
   }
 
   header {
@@ -114,7 +114,9 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 0;
     margin-top: 1rem;
   }

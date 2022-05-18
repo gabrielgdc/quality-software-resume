@@ -37,12 +37,31 @@ li + li {
 border-top: 1px solid rgba(255,255,255,0.2);
 }
 
+/* Title */
+
+h1 {
+  color: rgb(66, 108, 94);
+}
+
+/* View Layout */
+
 .viewLayout {
-    padding-top: 5rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewLayout p {
+  text-align: justify;
+}
+
+@media (min-width: 1024px) {
+  .viewLayout {
+    padding-top: 0;
+    overflow-y: auto;
     max-height: 50vh;
-    overflow-x: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+  }
 }
